@@ -1,0 +1,17 @@
+{
+  "globals": {
+    "$": true,
+    "jQuery": true
+  },
+  "env": {
+    "es6": true,
+    "browser": true,
+    "node": true,
+  },
+  "extends": "eslint:recommended",
+  "rules": {
+    "no-console": ["error", { allow: ["warn", "error"] }],
+    "no-extra-semi": "warn",
+    "eqeqeq": "warn"
+  }
+}
